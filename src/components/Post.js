@@ -1,7 +1,7 @@
-function Post() {
-    return <div class="Post">
-        <h1>Usuário</h1>
-        <p>Mensagem</p>
+function Post(props) {
+    return <div className="Post">
+        <h1>{props.author}</h1>
+        <p>{props.msg}</p>
     </div>
 }
 
