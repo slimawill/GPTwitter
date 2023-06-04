@@ -1,4 +1,7 @@
 function Navbar(){
+
+    console.log()
+
     return(
         <nav>
             <ul className="flex justify-end mx-4 my-2 gap-4">
