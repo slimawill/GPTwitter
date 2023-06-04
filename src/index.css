@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  * {
+    color: black;
+  }
+
+  ::placeholder {
+    font-weight: 600;
+    font-size: larger;
+  }
+}
+
 @layer utilities {
   .oitenta {
     width: 80%;
